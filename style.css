@@ -1,0 +1,120 @@
+.container-fluid{
+	background-color:#393E42;
+}
+.polygon{
+	padding-top: 27px;
+}
+.menu{
+	padding-top: 35px;
+}
+
+.boldmenu{
+	color: #fff;
+	padding: 33px;
+	padding-bottom: 40px;
+	margin-left: 20px;
+	border: 1px solid #343536;
+	background-color: #343536;
+	text-decoration: none;
+}
+.imageGallery{
+	text-align: center;
+	padding-top: 70px;
+}
+.inlineImage{
+	width: 180px;
+	height: 180px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	
+		margin-left: 24px;
+}
+.secondgallery{
+	text-align: center;
+	margin-left: -4px;
+}
+.LoadMore{
+	text-align: center;
+	margin-top: 40px;
+}
+.more{
+	color: #fff;
+	background-color:#B79E41;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+footer{
+	margin-top: 282px;
+	padding-bottom: 50px;
+}
+.ftext{
+	color: #fff;
+}
+.loadImg{
+   padding-top: 25px;
+
+}
+.showImg{
+ border: 4px double #fff;
+    display: none;
+}
+.text{
+	padding-top: 25px;
+	text-align: center;
+	color: #CE6A87;
+	display: none;
+	line-height: 25px;
+}
+.linkReadMore{
+	color: #fff;
+	border: 1px solid #CE6A87;
+	background-color: #CE6A87;
+	padding: 3px 5px 3px 5px;
+    border-radius: 10px;
+}
+.linkReadMore:hover{
+	text-decoration: none;
+	
+}
+.flowerImg{
+	max-width: 100%;
+	padding-top: 20px;
+}
+.bottonLink{
+  margin-top: 10px;
+
+}
+
+em{
+	font-weight: bold;
+	font-size: 15px;
+	color: #BD748F;
+}
+.textUnderf1{
+	padding-top: 20px;
+}
+ .textReadMore{
+	font-family:"Times New Roman",Palatino,Georgia,Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	padding-top: 15px;
+}
+.linkRM{
+	display: none;
+	color: #2A6496;
+}
+.forgetPass{
+	color: black;
+	text-align: left;
+	padding-right: 447px;
+}
+.btn-sm, .btn-group-sm > .btn {
+	margin-left: 18px;
+}
