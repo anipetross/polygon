@@ -260,6 +260,7 @@
  
  <script> 
      $(document).ready(function(){
+          var index = 0;
           $(".boldmenu").click(function(){
           	$(this).css({"color":"#B69E40","textDecoration":"none","fontWeight":"bold"});
           });
@@ -272,7 +273,8 @@
           $(this).parent().find(".linkRM").slideToggle("slow")
         })
           $("#btnAdd").click(function(){
-            $("#list").append("<img src='next.jpg'>");
+            index = index + 1;
+            $("#list").append("<img src='flower" + index + ".jpg'>");
             $("#list").css({"paddingTop":"20px"})
             $("#list").delegate("img","click",function(){
               $(this).remove();
